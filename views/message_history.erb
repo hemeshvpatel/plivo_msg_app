@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Message History</title>
+    </head>
+    <body>
+        <h1>View your Message History</h1>
+        <p>All send and received messages will appear below:</p>
+        <% @all_messages.each do |message|  %>
+            <p> <%= message %></p>
+        <% end %>
+
+    </body>
+</html>
