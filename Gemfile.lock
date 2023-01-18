@@ -18,7 +18,7 @@ GEM
       faraday (~> 0.9)
       faraday_middleware (~> 0.12.2)
       htmlentities
-    rack (2.2.2)
+    rack (2.2.6.2)
     rack-protection (2.0.8.1)
       rack
     ruby2_keywords (0.0.2)
